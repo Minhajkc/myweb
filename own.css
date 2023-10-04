@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color: rgb(7, 49, 85);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.video{
+    height: 600px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.327);
+}
+video{
+    margin: 10px;
+    border-radius: 10px;
+}
+.video table{
+    border: 1px solid;
+    margin: 10px;
+    width: 300px;
+    border-radius: 10px;
+}
+.video th{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgba(49, 212, 241, 0.648);
+}
+.video table video{
+    width: 200px;
+}
+.audio{
+    height: 460px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    background-color: rgba(0, 255, 255, 0.327);
+    display: flex;
+}
+.songs{
+    background-color: black;
+    height: 400px;
+    width: 600px;
+    margin: 30px;
+    border-radius: 10px;
+}
+.songsiframe{
+    height: 400px;
+    width: 600px;
+    margin: 30px;
+}
+.audiolink{
+    margin-top: 40px;
+}
+.audiolink a{
+    padding-left: 120px;
+    color: white;
+    text-decoration: none;
+    
+}
+.animation{
+    background-color:rgba(0, 255, 255, 0.644);;
+    height: 10px;
+    margin: 30px;
+    border-radius: 10px;
+    margin-top: -1px;
+    animation: expand 59s linear;
+}
+@keyframes expand{
+    from{
+        width:1px;
+    }
+    to{
+        width: 400px;
+    }
+}
+.songs img{
+    width: 100px;
+    border-radius: 500px;
+}
+.songs li{
+    list-style: none;
+}
